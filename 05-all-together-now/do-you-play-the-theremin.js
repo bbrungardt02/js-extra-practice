@@ -8,6 +8,14 @@
 // doYouPlayTheTheremin('Scott'); // => true
 
 // YOUR CODE BELOW
+function doYouPlayTheTheremin(str) {
+  // if the string starts with 's' or 'S'
+  if (str[0] === "s" || str[0] === "S") {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 // Do not change the code below
 module.exports = { doYouPlayTheTheremin };

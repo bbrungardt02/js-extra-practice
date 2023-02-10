@@ -12,6 +12,10 @@ let name = "David";
 let found;
 
 // YOUR CODE BELOW
-
+if ((found = "David" || "Nimit")) {
+  console.log(true);
+} else (found = "Someone else"){
+  console.log(false);
+}
 // Do not change the code below
 module.exports = { found, name };
