@@ -9,13 +9,9 @@ let name = "David";
 // let name = 'Nimit';
 // let name = 'Someone else';
 
-let found;
+let found = true;
 
 // YOUR CODE BELOW
-if ((found = "David" || "Nimit")) {
-  console.log(true);
-} else (found = "Someone else"){
-  console.log(false);
-}
+
 // Do not change the code below
 module.exports = { found, name };

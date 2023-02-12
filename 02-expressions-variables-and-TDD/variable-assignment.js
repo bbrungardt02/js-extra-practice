@@ -9,6 +9,8 @@
 // - Assign havingFun a boolean value that reflects whether or not you're having fun!
 
 // YOUR CODE BELOW
-
+const myFirstName = "Brandon";
+const myFavoriteNum = 21;
+const havingFun = true;
 // Do not change the code below
 module.exports = { myFirstName, myFavoriteNum, havingFun };

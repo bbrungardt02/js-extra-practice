@@ -6,3 +6,4 @@ EX: "apples".toUpperCase() OUTPUT: "APPLES"
 */
 
 // YOUR CODE BELOW
+"Some string".toUpperCase();
